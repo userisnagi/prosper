@@ -116,13 +116,17 @@ src/
 - Node.js (v16 or higher recommended)
 - npm or yarn package manager
 
+### Live Demo
+
+**View the live application:** [https://prosper-mocha.vercel.app](https://prosper-mocha.vercel.app)
+
 ### Installation
 
 1. **Clone the repository:**
 
 ```bash
-git clone <repository-url>
-cd frontend
+git clone https://github.com/userisnagi/prosper.git
+cd prosper
 ```
 
 2. **Install dependencies:**
