@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" class="">
+  <head>
+    <script>
+      (function () {
+        try {
+          if (localStorage.getItem("prosper_dark_mode") === "1") {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prosper - Your Financial Command Center</title>
+    <meta name="description" content="Track, analyze, and grow your wealth with Prosper - the modern finance dashboard." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Dark mode test element -->
+    <div id="dark-test" style="position:fixed;top:0;left:0;width:1px;height:1px;visibility:hidden;" class="dark:bg-red-500 bg-blue-500"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
