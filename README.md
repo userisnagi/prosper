@@ -199,7 +199,3 @@ Data is managed using React state (useState) and persisted to localStorage for s
 
 Educational/Portfolio use. Feel free to fork and customize for your own projects.
 
----
-
-**Built with ❤️ for financial literacy**
-
